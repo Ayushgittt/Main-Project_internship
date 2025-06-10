@@ -6,6 +6,7 @@ on:
 
     paths-ignore:
         - README.md
+        - 'helm/hlem_charts/**
 
 jobs:
   trivy-fs-scan:
@@ -99,4 +100,4 @@ jobs:
         git config --global user.name "Ayushgittt"
         git add helm/hlem_charts/values.yaml
         git commit -m "Update tag in Helm chart"
-        git push        
+        git push
