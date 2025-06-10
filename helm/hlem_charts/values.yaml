@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: 8192027760/internship
-  tag: "15552933805"
+  tag: "15553105318"
   pullPolicy: IfNotPresent
 
 service:
